@@ -46,7 +46,7 @@ A. Memory Vulnerabilities (Use-After-Free, Buffer Overflows)
 
 \* Mitigation (Software): The kernel is written in Rust to enforce memory safety at compile time through its ownership and borrowing system, eliminating most classes of spatial and temporal memory errors.
 
-\* Mitigation (Hardware): Utilization of Hardware Memory Tagging (ARM MTE and RISC-V Zimt) to assign unique tags to memory granules. This provides a second layer of defense where the hardware hardware-validates every pointer access.
+\* Mitigation (Hardware): Utilization of Hardware Memory Tagging (ARM MTE and RISC-V Zimt) to assign unique tags to memory granules. This provides a second layer of defence where the hardware hardware-validates every pointer access.
 
 
 
@@ -64,13 +64,13 @@ C. Privilege Escalation \& Unsafe IPC
 
 \* Mitigation: Capability-Based Security. Access to system resources is not determined by "User IDs" but by the possession of unforgeable, kernel-managed capabilities.
 
-\* Mitigation: Formal Verification. The IPC logic and capability distribution are modeled in TLA+ to prove that no state exists where a process can "steal" or "guess" a capability.
+\* Mitigation: Formal Verification. The IPC logic and capability distribution are modelled in TLA+ to prove that no state exists where a process can "steal" or "guess" a capability.
 
 
 
 D. Concurrency \& Logic Errors
 
-\* Threat: Complex race conditions in the multikernel model lead to inconsistent system states or deadlocks that can be exploited for DoS.
+\* Threat: Complex race conditions in the multi-kernel model lead to inconsistent system states or deadlocks that can be exploited for DoS.
 
 \* Mitigation: Formal Proofs. We use Coq/Lean for proofs of the kernel source code to ensure adherence to mathematical invariants, specifically targeting the synchronization primitives.
 

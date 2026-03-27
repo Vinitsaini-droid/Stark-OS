@@ -8,7 +8,7 @@ To define a formally verifiable interaction model between the Stark OS kernel an
 
 
 
-2\. The Multikernel Paradigm
+2\. The Multi-kernel Paradigm
 
 Stark OS rejects the "global mutable state" found in monolithic kernels.
 

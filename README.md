@@ -1,12 +1,12 @@
 # Stark-OS
 
-Trying to learn OS by  trying to make one.
+Trying to learn OS by trying to make one.
+
+
 
 \# Stark OS
 
-
-
-\*\*A security-first, formally verifiable operating system designed for the next 30 years of computing.\*\*
+A security-first, formally verifiable operating system designed for the next 30 years of computing.
 
 
 
@@ -16,15 +16,15 @@ Stark OS is not a Linux clone. It is a fundamental departure from the monolithic
 
 \## 🚀 The Strategic Axis
 
-We aren't competing with Linux on feature count; we are competing on \*\*trust\*\*. Stark targets the structural weaknesses inherent in monolithic kernels:
+We aren't competing with Linux on feature count; we are competing on trust. Stark targets the structural weaknesses inherent in monolithic kernels:
 
 
 
-\* \*\*Global Mutable State:\*\* Replaced by a distributed multi-kernel model.
+\* Global Mutable State: Replaced by a distributed multi-kernel model.
 
-\* \*\*Legacy Baggage:\*\* We abandon PC-BIOS and 32-bit constraints to optimize for modern silicon.
+\* Legacy Baggage: We abandon PC-BIOS and 32-bit constraints to optimize for modern silicon.
 
-\* \*\*Informal Guarantees:\*\* Moving from "it usually works" to "it is proven to work" through formal verification.
+\* Informal Guarantees: Moving from "it usually works" to "it is proven to work" through formal verification.
 
 
 
@@ -52,7 +52,7 @@ Traditional "root" permissions are a liability. Stark utilizes fine-grained capa
 
 \### 4. Memory Safety at the Metal
 
-Built from the ground up in \*\*Rust\*\*, Stark leverages zero-cost abstractions and strict ownership models to eliminate entire classes of memory-related vulnerabilities before the code is even compiled.
+Built from the ground up in Rust, Stark leverages zero-cost abstractions and strict ownership models to eliminate entire classes of memory-related vulnerabilities before the code is even compiled.
 
 
 
@@ -68,7 +68,7 @@ We are currently in the research and bootstrapping phase.
 
 
 
-\---
+
 
 \*Stark OS: Engineering the default choice for environments where correctness is non-negotiable.\*
 

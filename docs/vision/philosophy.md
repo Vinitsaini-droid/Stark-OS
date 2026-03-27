@@ -2,7 +2,7 @@
 
 
 
-This document defines the non-negotiable engineering principles of Stark OS. Every line of code added to this repository must align with these Starks.
+This document defines the non-negotiable engineering principles of Stark OS. Every line of code added to this repository must align with these Axioms.
 
 
 
@@ -10,7 +10,7 @@ This document defines the non-negotiable engineering principles of Stark OS. Eve
 
 \*\*"Correctness Before Features."\*\*
 
-In systems programming, technical debt is often fatal. We do not accept "hacks" to achieve quick milestones. We prefer a system that does three things perfectly and provably over a system that does thirty things unreliably.
+In systems programming, technical debt is often fatal. We do not accept "hacks" to achieve quick milestones. We prefer a system that does 3 things perfectly and provably over a system that does 30 things unreliably.
 
 
 
